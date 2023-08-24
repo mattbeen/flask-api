@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "flask-api-sample"
+version = "1.0.0"
+description = "This is a sample of structured flask api"
+authors = ["Matthew <hongnam.wong@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9.17"
+flask = "^2.3.3"
+pandas = "^2.0.3"
+sqlalchemy = "^2.0.20"
+cx-oracle = "^8.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
